@@ -1,0 +1,15 @@
+[ 2017-03-18T15:28:26+08:00 ] 127.0.0.1 /index.php/Admin/Manager/%7B/index.php/Admin/Manager/showList%7D?brand_id=0
+ERR: 无法加载模块:���SCRIPT_NAME
+
+[ 2017-03-18T15:28:40+08:00 ] 127.0.0.1 /index.php/Admin/Manager/%7B/index.php/Admin/Manager/showList%7D?brand_id=1
+ERR: 无法加载模块:���SCRIPT_NAME
+
+[ 2017-03-18T15:29:48+08:00 ] 127.0.0.1 /index.php/Admin/Manager/%7B/index.php/Admin/Manager/showList%7D?brand_id=1
+ERR: 无法加载模块:���SCRIPT_NAME
+
+[ 2017-03-18T15:31:32+08:00 ] 127.0.0.1 /index.php/Admin/Manager/%7B/index.php/Admin/Manager/showList%7D?brand_id=1
+ERR: 无法加载模块:���SCRIPT_NAME
+
+[ 2017-03-18T22:29:25+08:00 ] 127.0.0.1 /index.php/Admin/Manager/%7B/index.php/Admin/Manager/categoryUpdate%7D
+ERR: 无法加载模块:���SCRIPT_NAME
+

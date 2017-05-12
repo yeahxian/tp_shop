@@ -1,0 +1,23 @@
+{
+  "name": "tp_shop",
+  "description": "tp_shop thinkphp learn test",
+  "main": "index.js",
+  "authors": [
+    "xian"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "thinkPHP"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

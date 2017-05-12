@@ -1,0 +1,12 @@
+[ 2017-04-03T18:02:44+08:00 ] 127.0.0.1 /index.php/Admin/Category/CategoryList
+ERR: 非法操作:CategoryList
+
+[ 2017-04-03T22:04:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsList
+ERR: Think\Controller:getBrand方法不存在！
+
+[ 2017-04-03T22:20:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/index.php?brand_id=2
+ERR: 非法操作:index.php
+
+[ 2017-04-03T22:25:17+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Category&a=update&goods_id=12
+ERR: 非法操作:update
+

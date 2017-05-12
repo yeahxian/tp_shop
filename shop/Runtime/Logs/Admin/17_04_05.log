@@ -1,0 +1,250 @@
+[ 2017-04-05T14:25:51+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Category&a=add
+ERR: 1062:Duplicate entry '8' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `sw_category` (`cat_id`,`cat_name`,`parent_id`) VALUES ('8','平板','0')
+
+[ 2017-04-05T14:32:53+08:00 ] 127.0.0.1 /index.php/Admin/Category/CategoryList
+ERR: 非法操作:CategoryList
+
+[ 2017-04-05T14:50:17+08:00 ] 127.0.0.1 /Admin/Category/showCategory
+ERR: 非法操作:showCategory
+
+[ 2017-04-05T14:58:39+08:00 ] 127.0.0.1 /Admin/Category/Admin/Category/delete/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+ERR: 非法操作:Admin
+
+[ 2017-04-05T14:59:19+08:00 ] 127.0.0.1 /Admin/Category/delete/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000224s ]
+
+[ 2017-04-05T15:00:02+08:00 ] 127.0.0.1 /Admin/Category/delete/id/6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000109s ]
+
+[ 2017-04-05T15:01:05+08:00 ] 127.0.0.1 /Admin/Category/delete/id/4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000214s ]
+
+[ 2017-04-05T15:01:05+08:00 ] 127.0.0.1 /Admin/Category/showCategory
+ERR: 非法操作:showCategory
+
+[ 2017-04-05T15:02:22+08:00 ] 127.0.0.1 /Admin/Category/delete/id/5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000219s ]
+
+[ 2017-04-05T15:02:57+08:00 ] 127.0.0.1 /Admin/Category/delete/id/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000137s ]
+
+[ 2017-04-05T15:11:02+08:00 ] 127.0.0.1 /Admin/Category/delete/id/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `sw_category` [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2017-04-05T15:11:19+08:00 ] 127.0.0.1 /Admin/Category/delete/id/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `sw_category` [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2017-04-05T15:11:38+08:00 ] 127.0.0.1 /Admin/Category/delete/id/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `sw_category` [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000193s ]
+
+[ 2017-04-05T15:12:30+08:00 ] 127.0.0.1 /Admin/Category/delete/id/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `sw_category` [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000287s ]
+
+[ 2017-04-05T15:13:32+08:00 ] 127.0.0.1 /Admin/Category/delete/id/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `sw_category` [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000296s ]
+
+[ 2017-04-05T15:14:15+08:00 ] 127.0.0.1 /Admin/Category/delete/id/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `sw_category` [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000305s ]
+
+[ 2017-04-05T15:14:24+08:00 ] 127.0.0.1 /Admin/Category/delete/id/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `sw_category` [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000195s ]
+
+[ 2017-04-05T15:15:02+08:00 ] 127.0.0.1 /Admin/Category/delete/id/8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `sw_category` [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000140s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000241s ]
+
+[ 2017-04-05T15:17:09+08:00 ] 127.0.0.1 /Admin/Category/delete/id/6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `sw_category` [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000299s ]
+
+[ 2017-04-05T15:17:25+08:00 ] 127.0.0.1 /Admin/Category/delete/id/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `sw_category` [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000178s ]
+
+[ 2017-04-05T15:20:17+08:00 ] 127.0.0.1 /Admin/Category/delete/id/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `sw_category` [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000202s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000349s ]
+
+[ 2017-04-05T15:24:01+08:00 ] 127.0.0.1 /Admin/Category/delete/id/12
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `sw_category` [ RunTime:0.0119s ]
+SQL: DELETE FROM `sw_category` WHERE `cat_id` = 12 [ RunTime:0.0598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000275s ]
+
+[ 2017-04-05T15:26:08+08:00 ] 127.0.0.1 /Admin/Category/delete/id/7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000183s ]
+SQL: SHOW COLUMNS FROM `sw_category` [ RunTime:0.0006s ]
+SQL: DELETE FROM `sw_category` WHERE `cat_id` = 7 [ RunTime:0.1404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2017-04-05T15:28:40+08:00 ] 127.0.0.1 /Admin/Category/delete/id/10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `sw_category` [ RunTime:0.0007s ]
+SQL: DELETE FROM `sw_category` WHERE `cat_id` = 10 [ RunTime:0.0604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2017-04-05T15:29:35+08:00 ] 127.0.0.1 /Admin/Category/delete/id/6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `sw_category` [ RunTime:0.0011s ]
+SQL: DELETE FROM `sw_category` WHERE `cat_id` = 6 [ RunTime:0.0569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2017-04-05T16:23:09+08:00 ] 127.0.0.1 /Admin/Category/delete/id/14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007958s ]
+SQL: SHOW COLUMNS FROM `sw_category` [ RunTime:0.1848s ]
+SQL: DELETE FROM `sw_category` WHERE `cat_id` = 14 [ RunTime:0.1815s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.027188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.027424s ]
+
+[ 2017-04-05T16:23:23+08:00 ] 127.0.0.1 /Admin/Category/delete/id/13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `sw_category` [ RunTime:0.0010s ]
+SQL: DELETE FROM `sw_category` WHERE `cat_id` = 13 [ RunTime:0.0910s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000243s ]
+
+[ 2017-04-05T16:23:28+08:00 ] 127.0.0.1 /Admin/Category/delete/id/11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `sw_category` [ RunTime:0.0070s ]
+SQL: DELETE FROM `sw_category` WHERE `cat_id` = 11 [ RunTime:0.0536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000119s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000190s ]
+
+[ 2017-04-05T16:41:34+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=add
+ERR: 1062:Duplicate entry '57' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `sw_goods` (`goods_id`,`goods_name`,`goods_weight`,`goods_price`,`goods_number`,`goods_category_id`,`goods_brand_id`,`goods_introduce`,`goods_big_img`,`goods_small_img`,`goods_create_time`,`goods_last_time`,`abc`) VALUES ('57','Mi5','0','1788.00','100','2','13','yyyyyyyyyyy','images/20170404/1491295043.jpg','images/20170404/1491295043.jpg','0','0','')
+
+[ 2017-04-05T17:04:59+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showNew
+ERR: 非法操作:showNew
+
+[ 2017-04-05T18:52:52+08:00 ] 127.0.0.1 /Admin/Goods/test2
+ERR: Think\Model:relate方法不存在！
+
+[ 2017-04-05T21:12:29+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=add
+ERR: 1062:Duplicate entry '34' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `sw_goods` (`goods_id`,`goods_name`,`goods_brand_id`,`goods_category_id`,`goods_price`,`goods_introduce`,`goods_big_img`,`goods_small_img`,`goods_last_time`) VALUES ('34','Meizu','14','1','856.00','低端机型 低端机型 低端机型','images/20170405/1491397949.jpg','images/20170405/1491397949.jpg','1491397949')
+
+[ 2017-04-05T22:41:29+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getNew?goods_brand_id=%E8%AF%B7%E9%80%89%E6%8B%A9
+ERR: 1054:Unknown column '请选择' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `sw_goods` WHERE ( goods_brand_id=请选择 ) LIMIT 1  
+
+[ 2017-04-05T22:42:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getNew?goods_brand_id=%E8%AF%B7%E9%80%89%E6%8B%A9
+ERR: 1054:Unknown column '请选择' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `sw_goods` WHERE ( goods_brand_id=请选择 ) LIMIT 1  
+

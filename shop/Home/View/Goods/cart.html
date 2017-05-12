@@ -1,0 +1,104 @@
+            <div id="mainNav" class="clearfix">
+                <a href="#" class="cur">首页<span></span></a>
+                <a href="#">GSM手机<span></span></a>
+                <a href="#">双模手机<span></span></a>
+                <a href="#">手机配件<span></span></a>
+                <a href="#">优惠活动<span></span></a>
+                <a href="#">留言板<span></span></a>
+            </div>
+        </div>
+
+
+        <div class="header_bg">
+
+            <div style="float: left; font-size: 14px; color:white; padding-left: 15px;">
+            </div>  
+
+            <form id="searchForm" method="get" action="#">
+                <input name="keywords" id="keyword" type="text" />
+                <input name="imageField" value=" " class="go" style="cursor: pointer; background: url('{$Think.const.DEFAULT_IMAGES}/sousuo.gif') no-repeat scroll 0% 0% transparent; width: 39px; height: 20px; border: medium none; float: left; margin-right: 15px; vertical-align: middle;" type="submit" />
+
+            </form>
+        </div>
+        <div class="blank5"></div>
+
+        <div class="header_bg_b">
+            <div class="f_l" style="padding-left: 10px;">
+                <img src="{$Think.const.DEFAULT_IMAGES}/biao6.gif" />
+                北京市区，现在下单(截至次日00:30已出库)，<b>明天上午(9-14点)</b>送达 <b>免运费火热进行中！</b>
+            </div>
+
+            <div class="f_r" style="padding-right: 10px;">
+                <img style="vertical-align: middle;" src="{$Think.const.DEFAULT_IMAGES}/biao3.gif" />
+
+                <span class="cart" id="ECS_CARTINFO">
+                    <a href="#" title="查看购物车">您的购物车中有 1 件商品，总计金额 ￥2000.00元。</a></span>
+                <a href="#"><img style="vertical-align: middle;" src="{$Think.const.DEFAULT_IMAGES}/biao7.gif" /></a>
+            </div>
+        </div>
+
+        <div class="block box">
+            <div class="blank"></div>
+            <div id="ur_here">
+                当前位置: <a href="#">首页</a> <code>&gt;</code> 购物流程 
+            </div>
+        </div>
+        <div class="blank"></div>
+
+        <div class="blank"></div>
+        <div class="block">
+            <div class="flowBox">
+                <h6><span>商品列表</span></h6>
+                <form id="formCart">
+                    <table cellpadding="5" cellspacing="1">
+                        <tbody><tr>
+                                <th>商品名称</th>
+                                <th>属性</th>
+                                <th>市场价</th>
+                                <th>本店价</th>
+                                <th>购买数量</th>
+                                <th>小计</th>
+                                <th>操作</th>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <a href="#" target="_blank"><img style="width: 80px; height: 80px;" src="{$Think.const.DEFAULT_IMAGES}/24_thumb_G_1241971981429.jpg" title="P806" /></a><br />
+                                    <a href="#" target="_blank" class="f6">P806</a>
+                                </td>
+                                <td>颜色:灰色 <br />
+                                </td>
+                                <td align="right">￥2400.00元</td>
+                                <td align="right">￥2000.00元</td>
+                                <td align="right">
+                                    <input name="goods_number[43]" id="goods_number_43" value="1" size="4" class="inputBg" style="text-align: center;" onkeydown="showdiv(this)" type="text" />
+                                </td>
+                                <td align="right">￥2000.00元</td>
+                                <td align="center">
+                                    <a href="#" class="f6">删除</a>
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    <table cellpadding="5" cellspacing="1">
+                        <tbody><tr>
+                                <td>
+                                    购物金额小计 ￥2000.00元，比市场价 ￥2400.00元 节省了 ￥400.00元 (17%)              </td>
+                                <td align="right">
+                                    <input value="清空购物车" class="bnt_blue_1"  type="button" />
+                                    <input name="submit" class="bnt_blue_1" value="更新购物车" type="submit" />
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    <input name="step" value="update_cart" type="hidden" />
+                </form>
+                <table cellpadding="5" cellspacing="0" width="99%">
+                    <tbody><tr>
+                            <td><a href="/index.php"><img src="{$Think.const.DEFAULT_IMAGES}/continue.gif" alt="continue" /></a></td>
+                            <td align="right"><a href="/index.php/Home/Goods/settleAccount"><img src="{$Think.const.DEFAULT_IMAGES}/checkout.gif" alt="checkout" /></a></td>
+                        </tr>
+                    </tbody></table>
+            </div>
+            <div class="blank"></div>
+            <div class="blank5"></div>
+        </div>
+
+

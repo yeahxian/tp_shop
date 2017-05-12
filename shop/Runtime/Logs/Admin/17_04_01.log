@@ -1,0 +1,22 @@
+[ 2017-04-01T19:42:31+08:00 ] 127.0.0.1 /index.php/Admin/Manger//index
+ERR: 无法加载控制器:Manger
+
+[ 2017-04-01T19:43:12+08:00 ] 127.0.0.1 /index.php/Admin/Category/showList
+ERR: SQLSTATE[HY000] [1049] Unknown database 'shop'
+
+[ 2017-04-01T23:17:06+08:00 ] 127.0.0.1 /index.php/Admin/Category/showList
+ERR: 1146:Table 'shop.sw_brand' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sw_brand`
+
+[ 2017-04-01T23:18:03+08:00 ] 127.0.0.1 /index.php/Admin/Category/showList
+ERR: 1146:Table 'shop.sw_brand' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sw_brand`
+
+[ 2017-04-01T23:18:19+08:00 ] 127.0.0.1 /index.php/Admin/Category/showList
+ERR: 1146:Table 'shop.sw_brand' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sw_brand`
+
+[ 2017-04-01T23:24:04+08:00 ] 127.0.0.1 /index.php/Admin/Category/showList
+ERR: 1146:Table 'shop.sw_brand' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sw_brand`
+

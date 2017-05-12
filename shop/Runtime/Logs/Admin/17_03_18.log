@@ -1,0 +1,68 @@
+[ 2017-03-18T15:40:31+08:00 ] 127.0.0.1 /index.php/Admin/Manager/showList?brand_id=2
+ERR: 1054:Unknown column 'brand_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sw_goods` WHERE ( brand_id=2 ) 
+
+[ 2017-03-18T17:35:11+08:00 ] 127.0.0.1 /index.php/Admin/Manager/showCategories
+ERR: 1054:Unknown column 'parent_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sw_category` WHERE ( parent_id=0 ) 
+
+[ 2017-03-18T17:35:11+08:00 ] 127.0.0.1 /index.php/Admin/Manager/showCategories
+ERR: 1054:Unknown column 'parent_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sw_category` WHERE ( parent_id=0 ) 
+
+[ 2017-03-18T17:36:33+08:00 ] 127.0.0.1 /index.php/Admin/Manager/showCategories
+ERR: 1054:Unknown column 'parent_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sw_category` WHERE ( parent_id=0 ) 
+
+[ 2017-03-18T17:36:33+08:00 ] 127.0.0.1 /index.php/Admin/Manager/showCategories
+ERR: 1054:Unknown column 'parent_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sw_category` WHERE ( parent_id=0 ) 
+
+[ 2017-03-18T22:03:50+08:00 ] 127.0.0.1 /index.php/Admin/Manager/showCategory
+ERR: 非法操作:showCategory
+
+[ 2017-03-18T22:28:51+08:00 ] 127.0.0.1 /index.php/Admin/Manager/%7B__SEFP__%7D
+ERR: 非法操作:{__SEFP__}
+
+[ 2017-03-18T22:37:44+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Manager&a=updateCategories&cat_id=2
+ERR: 模板不存在:./shop/Admin/View/Manager/updateCategory.html
+
+[ 2017-03-18T23:00:06+08:00 ] 127.0.0.1 /index.php?m=&&m=Admin&c=Category&a=index
+ERR: 无法加载控制器:Category
+
+[ 2017-03-18T23:02:18+08:00 ] 127.0.0.1 /index.php?m=&&m=Admin&c=Category&a=index
+ERR: 无法加载控制器:Category
+
+[ 2017-03-18T23:02:39+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Category&a=index
+ERR: 无法加载控制器:Category
+
+[ 2017-03-18T23:04:14+08:00 ] 127.0.0.1 /index.php/Admin/Manager/head
+ERR: 无法加载控制器:Manager
+
+[ 2017-03-18T23:04:14+08:00 ] 127.0.0.1 /index.php/Admin/Manager/left
+ERR: 无法加载控制器:Manager
+
+[ 2017-03-18T23:04:14+08:00 ] 127.0.0.1 /index.php/Admin/Manager/right
+ERR: 无法加载控制器:Manager
+
+[ 2017-03-18T23:30:12+08:00 ] 127.0.0.1 /index.php/Admin/Manager/head
+ERR: 非法操作:head
+
+[ 2017-03-18T23:30:12+08:00 ] 127.0.0.1 /index.php/Admin/Manager/left
+ERR: 非法操作:left
+
+[ 2017-03-18T23:30:12+08:00 ] 127.0.0.1 /index.php/Admin/Manager/right
+ERR: 非法操作:right
+
+[ 2017-03-18T23:32:23+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Category&a=index
+ERR: 模板不存在:./shop/Admin/View/Category/index.html
+
+[ 2017-03-18T23:32:40+08:00 ] 127.0.0.1 /index.php?m=&&m=Admin&c=Category&a=index
+ERR: 模板不存在:./shop/Admin/View/Category/index.html
+
+[ 2017-03-18T23:34:51+08:00 ] 127.0.0.1 /index.php/Admin/Manager/showList
+ERR: 非法操作:showList
+
+[ 2017-03-18T23:56:48+08:00 ] 127.0.0.1 /index.php/Admin/Category/admin.php?m=Admin&c=Category&a=add
+ERR: 非法操作:admin.php
+
